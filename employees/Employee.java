@@ -1,7 +1,8 @@
+package employees;
 public class Employee {
 
-    private String fullName;
-    private double salary;
+    protected String fullName;
+    protected double salary;
 
     public Employee(String fullName, double salary) {
         this.fullName = fullName;
